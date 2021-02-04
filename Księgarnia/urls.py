@@ -20,7 +20,7 @@ from Książki.views import *
 from Księgarnia.Książki.views import *
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', index, name='index'),
-    path('kategoria/<id>/', kategoria, name='kategoria'),
+   path('admin/', admin.site.urls),
+#  path('', index, name='index'),
+#  path('kategoria/<id>/', kategoria, name='kategoria'),
 ]
